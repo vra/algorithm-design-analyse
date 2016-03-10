@@ -75,8 +75,10 @@ void maxmimumGap()
 			continue;
 		}
 		
+		float currMin = *min_element(buckets[i].begin(), buckets[i].end());
 		float currMax = *max_element(buckets[i].begin(), buckets[i].end());
-		float currGap = currMax - prevMax;
+		//gap is difference between current mimimum and previous maximum.
+		float currGap = currMin - prevMax;
 		if (maxGap < currGap) 
 		{
 			maxGap = currGap;
