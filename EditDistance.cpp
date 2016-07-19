@@ -16,7 +16,7 @@ int editDistance(string A, string B)
 	int lenOfB = B.size();
 
 	//Initalize matrix saving distance
-	vector<vector<int>> distance(lenOfA+1, vector<int>(lenOfB+1, 0));
+	vector<vector<int> > distance(lenOfA+1, vector<int>(lenOfB+1, 0));
 
 	for (int i = 0; i < lenOfA+1; ++i)
 	{
