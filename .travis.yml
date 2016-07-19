@@ -1,0 +1,5 @@
+language: cpp
+g++:
+ - 7.7
+
+script: g++ 
