@@ -1,2 +1,2 @@
 # algorithm-design-analyse
-Code in algorithm designing and analysing class.
+My code in algorithm designing and analysing class.
