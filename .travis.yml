@@ -2,4 +2,4 @@ language: cpp
 g++:
  - 7.7
 
-script: g++ 
+script: g++ EditDistance.cpp
